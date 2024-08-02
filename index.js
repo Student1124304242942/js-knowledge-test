@@ -2,8 +2,8 @@ const questions = [
     {
         question: 'Какая функция используется для вывода информационного сообщения на консоль?',
         answers: [
-            {text: 'console.log()', correct: true},
             {text: 'alert()', correct: false},
+            {text: 'console.log()', correct: true},
             {text: 'prompt()', correct: false},
             {text: 'confirm()', correct: false}
         ]
@@ -22,18 +22,18 @@ const questions = [
     {
         question: 'Какое значение будет у переменной x после выполнения кода: let x = 5; x += 3;?',
         answers: [
-            {text: '8', correct: true},
             {text: '5', correct: false},
             {text: '3', correct: false},
-            {text: 'error', correct: false}
+            {text: 'error', correct: false},
+            {text: '8', correct: true},
         ]
     },
 
     {
         question: 'Что делает метод array.join()?',
         answers: [
-            {text: 'Преобразует массив в строку, объединяя все элементы с заданным разделителем', correct: true},
             {text: 'Возвращает первый элемент массива', correct: false},
+            {text: 'Преобразует массив в строку, объединяя все элементы с заданным разделителем', correct: true},
             {text: 'Удаляет последний элемент массива', correct: false},
             {text: 'Добавляет элемент в начало массива', correct: false}
         ]
@@ -42,9 +42,9 @@ const questions = [
     {
         question: 'Что такое DOM?',
         answers: [
-            {text: 'Document Object Model - объектная модель документа', correct: true},
             {text: 'Data Object Model - объектная модель данных', correct: false},
             {text: 'Document Order Management - управление порядком документа', correct: false},
+            {text: 'Document Object Model - объектная модель документа', correct: true},
             {text: 'Data Operations Model - модель операций с данными', correct: false}
         ]
     }
